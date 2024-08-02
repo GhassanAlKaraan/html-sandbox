@@ -1,23 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=\, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <div class="header" id="header">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=\, initial-scale=1.0" />
+  <title>HTML & CSS Sandbox</title>
+
+  <style>
+    .header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .header a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .header a:hover {
+      color: #ccc;
+    }
+
+    .header a:active {
+      color: #000;
+    }
+
+    .header a:visited {
+      color: #fff;
+    }
+
+    .header a:focus {
+      color: #fff;
+    }
+
+    .header a:target {
+      color: #fff;
+    }
+
+    .header a:hover {
+      color: #fff;
+    }
+
+    .header a:active {
+      color: #fff;
+    }
+
+    .header a:visited {
+      color: #fff;
+    }
+
+    .header a:focus {
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="main-menu">
       <h1>My Website</h1>
-      <ul class="nav">
+      <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-    </div>
+    </nav>
+  </header>
 
+  <main>
     <!-- Sections -->
-    <div id="about" class="card text-center">
+    <section id="about">
+      <div class="card text-center"></div>
       <h2 class="text-lg">Section One</h2>
       <p>
         This is the first paragraph in
@@ -27,21 +83,26 @@
         This is the second paragraph in
         <span class="secondary-text">section one</span>
       </p>
-    </div>
+      </div>
+    </section>
 
-    <div id="contact" class="card text-center">
-      <h2 class="text-xl">Section Two</h2>
-      <p class="lead">
-        This is the first paragraph in
-        <span class="primary-text">section two</span>
-      </p>
-      <p>
-        This is the second paragraph in
-        <span class="secondary-text">section two</span>
-      </p>
-    </div>
+    <section id="contact">
+      <div class="card text-center">
+        <h2 class="text-xl">Section Two</h2>
+        <p class="lead">
+          This is the first paragraph in
+          <span class="primary-text">section two</span>
+        </p>
+        <p>
+          This is the second paragraph in
+          <span class="secondary-text">section two</span>
+        </p>
+      </div>
+    </section>
+  </main>
 
-    <!-- Footer -->
-    <div class="footer">&copy; 2024 My Website</div>
-  </body>
+  <!-- Footer -->
+  <footer>&copy; 2024 My Website</footer>
+</body>
+
 </html>

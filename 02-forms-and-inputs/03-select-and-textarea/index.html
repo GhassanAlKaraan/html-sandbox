@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Select & Textarea</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML & CSS Sandbox</title>
+</head>
+
+<body>
+  <h1>HTML & CSS Sandbox - Select & Textarea</h1>
+  <h2>Tech Suppport?</h2>
+  <h4>Choose your device</h4>
+
+  <form>
+    <label for="product">Product</label> <br>
+    <select name="product" id="product" multiple size="4">
+      <option value="iPhone">iPhone</option>
+      <option value="iMac">iMac</option>
+      <option value="Samsung">Samsung</option>
+      <option value="iPad">iPad</option>
+      <option value="Tablet">Tablet</option>
+      <option value="Laptop" selected>Laptop</option>
+    </select>
+
+    <br> <br>
+    <textarea name="message" id="message" placeholder="Describe your issue" rows="4" cols="40"></textarea>
+    <br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
 </html>

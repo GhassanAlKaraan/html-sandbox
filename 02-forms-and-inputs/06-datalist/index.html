@@ -7,5 +7,19 @@
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Datalist</h1>
+
+    <form>
+      <label for="favLanguage">Favorite Programming Language</label>
+      <input list="languages" id="favLanguage" name="favLanguage">
+
+      <datalist id="languages">
+        <option value="JS"></option>
+        <option value="Zig"></option>
+        <option value="Python"></option>
+        <option value="Dart"></option>
+        <option value="Rust"></option>
+        <option value="Go"></option>
+      </datalist>
+    </form>
   </body>
 </html>

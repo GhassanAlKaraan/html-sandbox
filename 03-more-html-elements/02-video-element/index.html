@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
+    <style>
+      .small-video {
+        width: 600px;
+        /* height: 400px; */
+        overflow: hidden;
+      }
+      .small-video video {
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <h1>HTML & CSS Sandbox - Video</h1>
+
+    <div class="small-video">
+      <figure>
+        <video src="./video1.mov" type="video/quicktime" controls></video>
+        <figcaption>Video 1</figcaption>
+      </figure>
+    </div>
+    <!-- can also use: loop, autoplay, muted -->
+
+    
   </body>
 </html>

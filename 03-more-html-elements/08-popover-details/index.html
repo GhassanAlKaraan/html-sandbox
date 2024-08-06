@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Popover & Details</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML & CSS Sandbox</title>
+</head>
+
+<body>
+  <h1>HTML & CSS Sandbox - Popover & Details</h1>
+
+  <!-- Popover -->
+  <button popovertarget="popover-1">Open popover 1</button>
+
+  <div id="popover-1" popover>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+  <button popovertarget="popover-2">Open popover 2</button>
+
+  <div id="popover-2" popover>
+    <h3>Lorem ipsum dolor sit.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nostrum.</p>
+  </div>
+
+
+  <br><br>
+
+  <!-- details -->
+  <details>
+    <summary>Details 1</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsum provident. Eos similique assumenda quaerat,
+    officiis illum eius commodi ullam.
+  </details>
+  <details>
+    <summary>Details 2</summary>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsum provident. Eos similique assumenda quaerat,
+    officiis illum eius commodi ullam.
+  </details>
+</body>
+
 </html>

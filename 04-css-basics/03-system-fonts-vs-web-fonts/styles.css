@@ -1,0 +1,46 @@
+html,
+body {
+  font-family: 'Poppins', sans-serif; /*use sans serif if you don't have poppins*/
+
+}
+
+p {
+  font-weight: 600;
+}
+
+/* Type Selectors */
+/* h2 {
+  color: red;
+  font-size: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+} */
+
+/* Class Selectors */
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: brown;
+}
+
+/* ID Selectors */
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Multiple Styles */
+.sporty,
+.casual {
+  font-size: 35px;
+}

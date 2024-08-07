@@ -1,0 +1,83 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Classes */
+.sporty {
+    background-color: whitesmoke;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.sporty h1 {
+    color: red;
+}
+
+.casual {
+    background-color: whitesmoke;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.casual h1 {
+    color: blue;
+}
+
+.formal {
+    background-color: whitesmoke;
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.formal h1 {
+    color: brown;
+}
+
+/* ID Selector */
+#container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Multiple Selector */
+.sporty h1, .casual h1, .formal h1 {
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    border-radius: 3px;
+    padding: 10px;
+    color: white;
+}
+
+
+
+/* Descendant Selector */
+/*
+p {
+    background: red;
+}
+
+#container p {
+    background-color: cyan;
+} */

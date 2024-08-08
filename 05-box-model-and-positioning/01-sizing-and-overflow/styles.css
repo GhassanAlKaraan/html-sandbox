@@ -1,3 +1,31 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+
+.box {
+  background-color: darkblue;
+  color: white;
+  padding: 20px;
+  border: 3px solid red;
+  margin: 20px;
+}
+
+.box-1 {
+  width: 200px;
+  height: 100px;
+  overflow-y: scroll;
+}
+.box-2 {
+  width: 50%;
+}
+
+.box-2 p {
+  width: 50%;
+}
+
+
+.box-3 {
+  max-width: 800px; /*best for main layouts*/
+  min-width: 500px;
+}

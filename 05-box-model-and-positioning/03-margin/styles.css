@@ -1,3 +1,41 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+h3,
+p {
+  margin: 0px;
+}
+
+.box {
+  background-color: aliceblue;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.box h3 {
+  margin-bottom: 5px;
+}
+
+.box-2 {
+  background-color: #f0f8ff;
+  max-width: max-content;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+
+  /* TRBL margin... */
+
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+.box-3 {
+  margin-left: -30px;
+}
+
+.box-1 {
+  margin: 100px auto;
+}

@@ -1,3 +1,34 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.non-el {
+  display: none;
+}
+
+.hidden-el {
+  visibility: hidden;
+  /*Keep the blank space*/
+}
+
+/* p {
+  display: inline;
+}
+
+a {
+  display: block;
+} */
+
+a {
+  background-color: lightblue;
+  border: blue solid 1px;
+  padding: 10px;
+  margin: 20px 10px;
+  /* You cant add vertical margin on an inline element (20px wont take effect) */
+  /* Also width and height, will only work on block elements */
+  width: 200px;
+  height: 100px;
+
+  display: inline-block;
+
+}

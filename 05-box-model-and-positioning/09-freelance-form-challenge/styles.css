@@ -1,10 +1,65 @@
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
   font-family: 'Poppins', sans-serif;
   background: #f4f4f4;
+}
+
+/* Card Styling */
+.card {
+  color: white;
+  padding: 50px 40px;
+  border-radius: 5px;
+  background-color: #303843;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-top: 10px;
+}
+
+/* Input Field Styling */
+.form-group input[type="text"] {
+  margin-top: 30px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 5px;
+  /* border-radius: 3px; */
+}
+
+/* Button Styling */
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  /* border-radius: 3px; */
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Button Hover Effect */
+.form-group button:hover {
+  background-color: #f08315;
 }

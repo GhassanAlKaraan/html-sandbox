@@ -13,4 +13,32 @@ body {
   max-width: 400px;
   margin: 20px;
   padding: 20px;
+
+  /*Shorthand*/
+  /* border: 2px solid black; */
+  /*Same as above*/
+  border-width: 2px;
+  border-style: dashed;
+  border-color: seagreen;
+
+}
+
+
+.box-1 {
+  border: none;
+  border-top: 4px blue solid;
+  border-bottom: 4px red solid;
+}
+
+.box-2 {
+  border-radius: 30px;
+  /* Use % for circles and ovals */
+  /* border-radius: 40%; */
+
+}
+
+
+.box-3 {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 40px;
 }

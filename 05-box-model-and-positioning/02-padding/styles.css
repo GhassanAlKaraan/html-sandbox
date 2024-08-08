@@ -1,3 +1,23 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.card {
+  width: max-content;
+  background-color: bisque;
+  /* padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 60px;
+  padding-bottom: 10px; */
+
+  /* T-B-R-L */
+  /* padding: 10px 20px 30px 40px; */
+
+  /* TB-RL */
+  /* padding: 10px 40px; */
+
+  /* T-RL-B */
+  padding: 10px 40px 10px;
+
+
+}

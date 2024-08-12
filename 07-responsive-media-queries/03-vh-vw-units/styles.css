@@ -7,3 +7,14 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.container {
+  background-color: lightblue;
+  height: 50vh; /*50% of viewport height*/
+  /* width: 50vw; */
+
+}
+
+.container h1 {
+  font-size: 7vw; /*responsive font size. Not very used*/
+}

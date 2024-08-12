@@ -1,3 +1,8 @@
+/*html {
+  font-size: 16px;
+  This is 1 rem
+}*/
+
 * {
   margin: 0;
   padding: 0;
@@ -7,3 +12,31 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+p {
+  font-size: 1.4rem;
+  /*Good for centralization of font sized*/
+  /* Good for browser accessibility option */
+  margin: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  padding: 0.3rem 0;
+}
+
+ul {
+  font-size: 1.5rem; 
+  /*em: Multiply by the parent's size*/
+  /*rem: Multiply by the HTML size*/
+}
+
+

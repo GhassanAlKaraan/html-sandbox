@@ -7,3 +7,51 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+/* min or max width */
+@media screen and (max-width: 1200px) {
+  .widescreen {
+    background-color: coral;
+  }
+}
+
+@media(max-width: 992px) {
+  .normal {
+    background-color: lightblue;
+  }
+}
+
+/* Tablet*/
+@media(max-width: 768px) {
+  .tablet {
+    background-color: lightgreen;
+  }
+}
+
+@media(max-width: 576px) {
+  .smartphone {
+    background-color: lightcoral;
+  }
+}
+
+/* Rotated Phone */
+@media(orientation:landscape) {
+  .landscape {
+    background-color: goldenrod;
+  }
+
+}
+
+@media(max-width: 500px) {
+  .height {
+    background-color: seagreen;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+}

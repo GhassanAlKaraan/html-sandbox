@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+}
+
+.header {
+    background-color: coral;
+    color: black;
+    padding: 30px;
+}
+
+.navbar {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    color: brown;
+}
+
+.navbar a {
+    margin: 5px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+}
+
+.main {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.main section {
+    flex: 3 0 400px;
+}
+
+.main section h2 {
+    margin-bottom: 20px;
+}
+
+.main section p {
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.main aside {
+    flex: 1 0 150px;
+}
+
+.main aside h3 {
+    background-color: coral;
+    color: white;
+    padding: 10px;
+}
+
+.main aside .post-item {
+    background-color: rgb(231, 231, 231);
+
+    padding: 10px;
+
+    border-bottom: 1px solid lightgrey;
+}
+
+.main aside .post-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.main aside .post-item a:hover {
+    color: brown;
+}

@@ -1,3 +1,47 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.flex-container {
+  background-color: lightblue;
+  width: 100%;
+  display: flex;
+}
+
+.flex-item {
+  background-color: coral;
+  border: 1px solid black;
+
+  padding: 20px;
+  /*If width not set , it will take content width*/
+  /* width: 100px; */
+  /* flex: 1 0 100px; */
+
+
+  /* check this */
+  /* flex: 1 0 0; */
+  flex: 1;
+}
+
+/* .item-1, .item-2 {
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+
+.item-2 {
+  flex-shrink: 2;
+  flex-grow: 2;
+} */
+
+.item-2 {
+  flex:2;
+}
+
+/* .item-3 {
+  flex-shrink: 0;
+  flex-basis: 200px;
+} */
+
+.item-3 {
+  flex: 3;
+}

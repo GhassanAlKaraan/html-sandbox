@@ -4,6 +4,92 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --background-gradient: radial-gradient(circle, rgb(230, 83, 90) 0%, rgb(60, 139, 230) 100%);
+}
+
+header {
+  background: var(--background-gradient);
+}
+
+header .navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 3rem;
+
+  flex-wrap: wrap;
+}
+
+header .navbar ul li a {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+
+}
+
+header .navbar a:hover {
+  background-color: white;
+  color: red;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+main .section {
+  width: 100%;
+  margin: 50px auto;
+  line-height: 1.4;
+
+}
+
+main h2 {
+  background: var(--background-gradient);
+  padding: 10px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+main .section img {
+  max-width: 100%;
+  margin: 30px auto;
+}
+
+main p {
+  margin: 20px auto;
+}
+
+.scroll-up a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
+
+.scroll-up a:hover {
+  opacity: 0.9;
+  color: red;
+}
+
+.scroll-up {
+  font-size: 30px;
+  position: fixed;
+  bottom: 5px;
+  left: 200vh;
+
 }

@@ -1,5 +1,23 @@
 img {
+  /* Typically get started with images*/
   width: 100%;
+
+  /* filter: grayscale(50%); */
+  /* filter: blur(5px); */
+  /* filter: brightness(110%); */
+  /* filter: contrast(50%); */
+  /* filter: drop-shadow(5px 5px 5px black); */
+  /* filter: hue-rotate(50deg); */
+  /* filter: invert(600%); */
+  /* filter: opacity(50%); */
+  /* filter: saturate(110%); */
+  /* filter: sepia(50%); */
+
+
+  /* Chain Filters */
+  filter: grayscale(100%) blur(4px);
+
+  filter: none;
 }
 
 .container {

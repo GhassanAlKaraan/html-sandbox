@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header-transparency: 0.8;
+}
+
 html,
 body {
   font-family: 'Poppins', sans-serif;
@@ -38,6 +42,22 @@ img {
   color: #fff;
   padding: 10px 0;
   margin-bottom: 80px;
+
+  /* I tried here */
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header.transparent {
+  background: linear-gradient(
+    45deg,
+    rgba(255,0,0, var(--header-transparency)),
+    rgba(174, 255, 0, var(--header-transparency))
+  );
 }
 
 .header .menu ul {
